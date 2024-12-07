@@ -11,14 +11,14 @@ const questions = [
     insert: '?',
     options: ['28', '30', '36', '42'],
     correctAnswer: 1,
-    level: 3, // Было 1 (слишком легко)
+    level: 3, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Кошка, Собака, Птица, Лошадь',
     options: ['Кошка', 'Собака', 'Птица', 'Лошадь'],
     correctAnswer: 2,
-    level: 3, // Было 1
+    level: 3, 
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -26,20 +26,20 @@ const questions = [
     insert: '?',
     options: ['20', '25', '30', '36'],
     correctAnswer: 1,
-    level: 3, // Было 1
+    level: 3, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Красный, Синий, Треугольник, Зеленый',
     options: ['Красный', 'Синий', 'Треугольник', 'Зеленый'],
     correctAnswer: 2,
-    level: 3, // Было 1
+    level: 3, 
   },
   {
     question: 'Сколько ног у 2 кошек и 3 собак?',
     options: ['14', '16', '20', '24'],
     correctAnswer: 2,
-    level: 2, // Остался 1, так как это очень простой вопрос
+    level: 2,
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -47,7 +47,7 @@ const questions = [
     insert: '?',
     options: ['22', '23', '25', '28'],
     correctAnswer: 1,
-    level: 3, // Было 2
+    level: 3, 
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -55,21 +55,21 @@ const questions = [
     insert: '?',
     options: ['12', '13', '14', '15'],
     correctAnswer: 1,
-    level: 4, // Было 2
+    level: 4, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Яблоко, Банан, Автомобиль, Апельсин',
     options: ['Яблоко', 'Банан', 'Автомобиль', 'Апельсин'],
     correctAnswer: 2,
-    level: 3, // Было 1
+    level: 3, 
   },
   {
     question: 'Что лишнее?',
     example: '125, 64, 36, 16',
     options: ['125', '64', '36', '16'],
     correctAnswer: 0,
-    level: 3, // Было 2
+    level: 3, 
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -77,14 +77,14 @@ const questions = [
     insert: '?',
     options: ['480', '540', '720', '900'],
     correctAnswer: 2,
-    level: 4, // Было 3
+    level: 4, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Круг, Квадрат, Линия, Треугольник',
     options: ['Круг', 'Квадрат', 'Линия', 'Треугольник'],
     correctAnswer: 2,
-    level: 3, // Было 1
+    level: 3,
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -92,7 +92,7 @@ const questions = [
     insert: '?',
     options: ['55', '60', '65', '70'],
     correctAnswer: 0,
-    level: 4, // Было 1
+    level: 4, 
   },
   {
     question: 'Найдите пропущенную букву.',
@@ -100,14 +100,14 @@ const questions = [
     insert: '?',
     options: ['C', 'F', 'G', 'H'],
     correctAnswer: 2,
-    level: 2, // Остался 1, так как это легко для большинства
+    level: 2, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Весна, Осень, Лето, Север',
     options: ['Весна', 'Осень', 'Лето', 'Север'],
     correctAnswer: 3,
-    level: 2, // Остался 1, так как это легко для большинства
+    level: 2, 
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -115,21 +115,21 @@ const questions = [
     insert: '?',
     options: ['25', '30', '35', '40'],
     correctAnswer: 1,
-    level: 3, // Было 1
+    level: 3, 
   },
   {
     question: 'Что лишнее?',
     example: 'Солнце, Земля, Марс, Луна',
     options: ['Солнце', 'Земля', 'Марс', 'Луна'],
     correctAnswer: 3,
-    level: 2, // Остался 1, так как это легко
+    level: 2, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Москва, Париж, Лондон, Байкал',
     options: ['Москва', 'Париж', 'Лондон', 'Байкал'],
     correctAnswer: 3,
-    level: 3, // Было 1
+    level: 3, 
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -137,14 +137,14 @@ const questions = [
     insert: '?',
     options: ['6', '7', '8', '9'],
     correctAnswer: 2,
-    level: 3, // Остался 1, так как это легко
+    level: 3, 
   },
   {
     question: 'Какое слово не подходит к остальным?',
     example: 'Слон, Тигр, Лев, Акула',
     options: ['Слон', 'Тигр', 'Лев', 'Акула'],
     correctAnswer: 3,
-    level: 3, // Было 2
+    level: 3, 
   },
   {
     question: 'Какое число должно стоять вместо вопросительного знака?',
@@ -152,7 +152,7 @@ const questions = [
     insert: '?',
     options: ['64', '65', '66', '67'],
     correctAnswer: 3,
-    level: 3, // Было 2
+    level: 3, 
   },
 ]
 
@@ -164,8 +164,8 @@ function App() {
 	const [selectedAnswers, setSelectedAnswers] = useState(
 		Array(questions.length).fill(null)
 	)
-	const [showResults, setShowResults] = useState(true)
-	const [showStart, setShowStart] = useState(false)
+	const [showResults, setShowResults] = useState(false)
+	const [showStart, setShowStart] = useState(true)
 
 	const handleNext = () => {
 		if (currentQuestion < questions.length - 1) {
