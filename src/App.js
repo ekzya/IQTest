@@ -164,8 +164,8 @@ function App() {
 	const [selectedAnswers, setSelectedAnswers] = useState(
 		Array(questions.length).fill(null)
 	)
-	const [showResults, setShowResults] = useState(true)
-	const [showStart, setShowStart] = useState(false)
+	const [showResults, setShowResults] = useState(false)
+	const [showStart, setShowStart] = useState(true)
 
 	const handleNext = () => {
 		if (currentQuestion < questions.length - 1) {
