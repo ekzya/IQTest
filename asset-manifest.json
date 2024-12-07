@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IQTest/static/css/main.59a19e25.css",
+    "main.js": "/IQTest/static/js/main.ea45faf7.js",
+    "index.html": "/IQTest/index.html",
+    "main.59a19e25.css.map": "/IQTest/static/css/main.59a19e25.css.map",
+    "main.ea45faf7.js.map": "/IQTest/static/js/main.ea45faf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59a19e25.css",
+    "static/js/main.ea45faf7.js"
+  ]
+}
